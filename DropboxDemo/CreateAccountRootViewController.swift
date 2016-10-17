@@ -12,7 +12,7 @@ class CreateAccountRootViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        performSegue(withIdentifier: "firstSegue", sender: nil)
+       performSegue(withIdentifier: "firstSegue", sender: self)
   
 
         // Do any additional setup after loading the view.
