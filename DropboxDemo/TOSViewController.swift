@@ -1,20 +1,17 @@
 //
-//  CreateAccountRootViewController.swift
+//  TOSViewController.swift
 //  DropboxDemo
 //
-//  Created by Amy Wu on 10/15/16.
+//  Created by Amy Wu on 10/16/16.
 //  Copyright © 2016 Amy Wu. All rights reserved.
 //
 
 import UIKit
 
-class CreateAccountRootViewController: UIViewController {
+class TOSViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        performSegue(withIdentifier: "firstSegue", sender: self)
-  
 
         // Do any additional setup after loading the view.
     }
@@ -24,6 +21,9 @@ class CreateAccountRootViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func TOSdone(_ sender: AnyObject) {
+        dismiss(animated: true, completion: nil)
+    }
 
     /*
     // MARK: - Navigation

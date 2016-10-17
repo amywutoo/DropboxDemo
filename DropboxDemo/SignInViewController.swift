@@ -12,6 +12,8 @@ class SignInViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        performSegue(withIdentifier: "secondSegue", sender: self)
 
         // Do any additional setup after loading the view.
     }
@@ -21,9 +23,6 @@ class SignInViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func onReturn(_ sender: AnyObject) {
-        dismiss(animated: true, completion: nil)
-    }
 
     /*
     // MARK: - Navigation

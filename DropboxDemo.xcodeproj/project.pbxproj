@@ -14,6 +14,8 @@
 		D92919331DB334B100A32C18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92919311DB334B100A32C18 /* LaunchScreen.storyboard */; };
 		D929193B1DB3472D00A32C18 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D929193A1DB3472D00A32C18 /* CreateAccountRootViewController.swift */; };
 		D929193D1DB34A2100A32C18 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D929193C1DB34A2100A32C18 /* SignInViewController.swift */; };
+		D929193F1DB4965100A32C18 /* TOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D929193E1DB4965100A32C18 /* TOSViewController.swift */; };
+		D929194B1DB4B16A00A32C18 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D929194A1DB4B16A00A32C18 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		D92919341DB334B100A32C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D929193A1DB3472D00A32C18 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
 		D929193C1DB34A2100A32C18 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		D929193E1DB4965100A32C18 /* TOSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TOSViewController.swift; sourceTree = "<group>"; };
+		D929194A1DB4B16A00A32C18 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				D92919281DB334B100A32C18 /* AppDelegate.swift */,
 				D929192A1DB334B100A32C18 /* ViewController.swift */,
 				D929192C1DB334B100A32C18 /* Main.storyboard */,
+				D929194A1DB4B16A00A32C18 /* SettingsViewController.swift */,
+				D929193E1DB4965100A32C18 /* TOSViewController.swift */,
 				D929193C1DB34A2100A32C18 /* SignInViewController.swift */,
 				D929193A1DB3472D00A32C18 /* CreateAccountRootViewController.swift */,
 				D929192F1DB334B100A32C18 /* Assets.xcassets */,
@@ -143,9 +149,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D929193D1DB34A2100A32C18 /* SignInViewController.swift in Sources */,
+				D929193F1DB4965100A32C18 /* TOSViewController.swift in Sources */,
 				D929193B1DB3472D00A32C18 /* CreateAccountRootViewController.swift in Sources */,
 				D929192B1DB334B100A32C18 /* ViewController.swift in Sources */,
 				D92919291DB334B100A32C18 /* AppDelegate.swift in Sources */,
+				D929194B1DB4B16A00A32C18 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

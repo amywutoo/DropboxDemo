@@ -1,20 +1,17 @@
 //
-//  CreateAccountRootViewController.swift
+//  SettingsViewController.swift
 //  DropboxDemo
 //
-//  Created by Amy Wu on 10/15/16.
+//  Created by Amy Wu on 10/17/16.
 //  Copyright © 2016 Amy Wu. All rights reserved.
 //
 
 import UIKit
 
-class CreateAccountRootViewController: UIViewController {
+class SettingsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        performSegue(withIdentifier: "firstSegue", sender: self)
-  
 
         // Do any additional setup after loading the view.
     }

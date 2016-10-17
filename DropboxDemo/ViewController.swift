@@ -19,8 +19,17 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    
     }
 
+    @IBAction func onReturn(_ sender: AnyObject) {
+        navigationController!.popViewController(animated: true)
+    }
+    
+    @IBAction func onReturnSignIn(_ sender: AnyObject) {
+        navigationController!.popViewController(animated: true)
+
+    }
 
 }
 
