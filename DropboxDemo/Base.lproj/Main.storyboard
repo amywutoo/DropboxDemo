@@ -484,6 +484,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="909"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vx9-CG-NHj">
+                                <rect key="frame" x="0.0" y="768" width="375" height="141"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="FFX-1m-w5m" kind="modal" id="jMV-Bc-iRL"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </scrollView>
                     <navigationItem key="navigationItem" id="jco-Vm-Bnk"/>
@@ -496,7 +503,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="11F-WM-RvL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6060" y="2702"/>
+            <point key="canvasLocation" x="6059.5" y="2701.5"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="ggQ-sf-UiQ">
@@ -962,6 +969,7 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="yZa-aE-CuF"/>
+        <segue reference="jMV-Bc-iRL"/>
         <segue reference="qaG-SF-tRr"/>
         <segue reference="PBO-hC-qsc"/>
     </inferredMetricsTieBreakers>
