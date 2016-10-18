@@ -39,12 +39,4 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 ### Video Walkthrough 
 
-Here's a walkthrough of implemented user stories:
-
-http://imgur.com/a/YhFvf
-
-## Notes
-
-Describe any challenges encountered while building the app.
-
-* Any libraries or borrowed content.
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/YhFvf"><a href="//imgur.com/YhFvf"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
