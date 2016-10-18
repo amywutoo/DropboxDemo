@@ -34,9 +34,20 @@ Time spent: `10`
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1. The <Welcome or back button from the Sign In / Create Account screens, where should the pop code go?
+1. The < Welcome or back button from the Sign In / Create Account screens, where should the pop code go?
 2. 
 
 ### Video Walkthrough 
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/YhFvf"><a href="//imgur.com/YhFvf"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+Here's a walkthrough of implemented user stories:
+
+<img src='http://imgur.com/a/YhFvf' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+## Notes
+
+Describe any challenges encountered while building the app.
+
+* Any libraries or borrowed content.
+
