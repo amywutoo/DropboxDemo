@@ -34,8 +34,8 @@ Time spent: `10`
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1. The < Welcome or back button from the Sign In / Create Account screens, where should the pop code go?
-2. 
+1. The < Welcome or back button from the Sign In / Create Account screens, where should the pop code go? I have mine in the ViewController code file...
+2. What are some tips on keeping your view organized? I feel like I can barely see my main storyboard bc I have tendency to have all the toolbars open.
 
 ### Video Walkthrough 
 
