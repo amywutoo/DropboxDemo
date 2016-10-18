@@ -22,6 +22,10 @@ class ViewController: UIViewController {
     
     }
 
+    @IBAction func Cancel(_ sender: AnyObject) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     @IBAction func onReturn(_ sender: AnyObject) {
         navigationController!.popViewController(animated: true)
     }
